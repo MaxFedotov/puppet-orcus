@@ -1,0 +1,42 @@
+{
+  "name": "mfedotov-orcus",
+  "version": "1.0.0",
+  "author": "Max Fedotov",
+  "summary": "Installs, configures and manages orcus",
+  "license": "Apache-2.0",
+  "source": "https://github.com/MaxFedotov/puppet-orcus.git",
+  "project_page": "https://github.com/MaxFedotov/puppet-orcus",
+  "issues_url": "https://github.com/MaxFedotov/puppet-orcus/issues",
+  "operatingsystem_support": [
+    {
+      "operatingsystem": "RedHat",
+      "operatingsystemrelease": [
+        "7"
+      ]
+    },
+    {
+      "operatingsystem": "CentOS",
+      "operatingsystemrelease": [
+        "7"
+      ]
+    },
+    {
+      "operatingsystem": "Scientific",
+      "operatingsystemrelease": [
+        "7"
+      ]
+    },
+    {
+      "operatingsystem": "Ubuntu",
+      "operatingsystemrelease": [
+        "14.04"
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "name": "puppetlabs/stdlib",
+      "version_requirement": ">= 4.6.0 < 6.0.0"
+    }
+  ]
+}
