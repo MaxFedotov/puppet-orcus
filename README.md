@@ -120,6 +120,22 @@ Specifies whether orcus service should be managed. Defaults to 'true'.
 
 Default value: $orcus::params::manage_service
 
+##### `user`
+
+Data type: `String`
+
+User for orcus. Defaults to 'orcus'.
+
+Default value: $orcus::params::user
+
+##### `group`
+
+Data type: `String`
+
+User for orcus. Defaults to 'orcus'.
+
+Default value: $orcus::params::group
+
 ##### `package_install_options`
 
 Data type: `Array[String]`

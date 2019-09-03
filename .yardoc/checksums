@@ -1,0 +1,6 @@
+manifests/init.pp a998346c40c1105d20d4ebaa51f7d2ee88ebc8c4
+manifests/config.pp 978d4eb1530b48cee380d1e77c0a816726908a30
+manifests/params.pp a6bae9ff14985d90743330b766adf3e313394e48
+manifests/install.pp 29e0663106d8690bfb07b59d154e14319ed1f0de
+manifests/service.pp 7156029e2b109a04fffdcdf24afd3bf79ab629e0
+lib/puppet/parser/functions/orcus_config.rb ebf72d3b9fa156e99f5997fb8d2ac29d325994e8

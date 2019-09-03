@@ -7,6 +7,8 @@ class orcus::params {
   $package_name            = 'orcus'
   $version                 = 'latest'
   $manage_service          = true
+  $user                    = 'orcus'
+  $group                   = 'orcus'
   $package_install_options = []
   $default_config = {
     general      => {

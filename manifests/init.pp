@@ -16,6 +16,10 @@
 #   Version of orcus. Defaults to 'latest'.
 # @param manage_service
 #   Specifies whether orcus service should be managed. Defaults to 'true'.
+# @param user
+#   User for orcus. Defaults to 'orcus'.
+# @param group
+#   User for orcus. Defaults to 'orcus'.
 # @param package_install_options
 #   Array of install options for managed package resources. Appropriate options are passed to package manager.
 # @param override_config
@@ -25,6 +29,8 @@ class orcus(
   String $package_name                   = $orcus::params::package_name,
   String $version                        = $orcus::params::version,
   Boolean $manage_service                = $orcus::params::manage_service,
+  String $user                           = $orcus::params::user,
+  String $group                          = $orcus::params::group,
   Array[String] $package_install_options = $orcus::params::package_install_options,
   Hash $override_config                  = {}
 
